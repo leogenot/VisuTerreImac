@@ -1,0 +1,13 @@
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 800
+field_of_view = 80.0
+heightmap_file = ./assets/heightmap/height.pbm
+xsize = 512
+ysize = 512
+zmin = 0
+zmax = 1
+znear = 0.01
+zfar = 5000.
+terrain_Scale = 2.0
+terrainHeightScale = 100.0
+terrain_Precision = 8
