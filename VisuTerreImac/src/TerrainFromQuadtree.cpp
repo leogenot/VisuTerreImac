@@ -3,7 +3,7 @@ using namespace std;
 
 TerrainFromQuadtree::TerrainFromQuadtree(char *terrainFilename, const int width, const int length, float scaleH, float scale, int precisionLevel)
 {
-	cout << "---------------------------------->> Creating Terrain" << endl;
+	cout << "Creation du terrain" << endl;
 	WireframeMode = false;
 
 	for (int x = 0; x <= width + 1; x++)
